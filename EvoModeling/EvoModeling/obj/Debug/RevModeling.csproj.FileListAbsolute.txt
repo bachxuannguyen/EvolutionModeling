@@ -1,0 +1,10 @@
+D:\KHMT\Vs\RevModeling\RevModeling\RevModeling\bin\Debug\RevModeling.exe.config
+D:\KHMT\Vs\RevModeling\RevModeling\RevModeling\bin\Debug\RevModeling.exe
+D:\KHMT\Vs\RevModeling\RevModeling\RevModeling\bin\Debug\RevModeling.pdb
+D:\KHMT\Vs\RevModeling\RevModeling\RevModeling\obj\Debug\RevModeling.csprojResolveAssemblyReference.cache
+D:\KHMT\Vs\RevModeling\RevModeling\RevModeling\obj\Debug\RevModeling.exe
+D:\KHMT\Vs\RevModeling\RevModeling\RevModeling\obj\Debug\RevModeling.pdb
+D:\KHMT\Vs\RevModeling\RevModeling\RevModeling\bin\Debug\OxyPlot.dll
+D:\KHMT\Vs\RevModeling\RevModeling\RevModeling\bin\Debug\OxyPlot.xml
+D:\KHMT\Vs\RevModeling\RevModeling\RevModeling\bin\Debug\OxyPlot.WindowsForms.dll
+D:\KHMT\Vs\RevModeling\RevModeling\RevModeling\bin\Debug\OxyPlot.WindowsForms.xml

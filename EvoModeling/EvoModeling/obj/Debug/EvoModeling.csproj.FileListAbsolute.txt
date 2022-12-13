@@ -1,0 +1,49 @@
+D:\KHMT\Vs\EvoModeling\EvoModeling\EvoModeling\bin\Debug\RevModeling.exe.config
+D:\KHMT\Vs\EvoModeling\EvoModeling\EvoModeling\bin\Debug\RevModeling.exe
+D:\KHMT\Vs\EvoModeling\EvoModeling\EvoModeling\bin\Debug\RevModeling.pdb
+D:\KHMT\Vs\EvoModeling\EvoModeling\EvoModeling\bin\Debug\OxyPlot.dll
+D:\KHMT\Vs\EvoModeling\EvoModeling\EvoModeling\bin\Debug\OxyPlot.WindowsForms.dll
+D:\KHMT\Vs\EvoModeling\EvoModeling\EvoModeling\bin\Debug\OxyPlot.xml
+D:\KHMT\Vs\EvoModeling\EvoModeling\EvoModeling\bin\Debug\OxyPlot.WindowsForms.xml
+D:\KHMT\Vs\EvoModeling\EvoModeling\EvoModeling\obj\Debug\EvoModeling.csprojResolveAssemblyReference.cache
+D:\KHMT\Vs\EvoModeling\EvoModeling\EvoModeling\obj\Debug\RevModeling.exe
+D:\KHMT\Vs\EvoModeling\EvoModeling\EvoModeling\obj\Debug\RevModeling.pdb
+D:\KHMT\Vs\EvoModeling\EvoModeling\EvoModeling\obj\Debug\EvoModeling.csproj.GenerateResource.Cache
+D:\KHMT\Vs\EvoModeling\EvoModeling\EvoModeling\obj\Debug\EvoModeling.FormDrawObject.resources
+D:\KHMT\Vs\EvoModeling - dotNet4.8\EvoModeling\EvoModeling\bin\Debug\RevModeling.exe.config
+D:\KHMT\Vs\EvoModeling - dotNet4.8\EvoModeling\EvoModeling\bin\Debug\RevModeling.exe
+D:\KHMT\Vs\EvoModeling - dotNet4.8\EvoModeling\EvoModeling\bin\Debug\RevModeling.pdb
+D:\KHMT\Vs\EvoModeling - dotNet4.8\EvoModeling\EvoModeling\bin\Debug\OxyPlot.dll
+D:\KHMT\Vs\EvoModeling - dotNet4.8\EvoModeling\EvoModeling\bin\Debug\OxyPlot.WindowsForms.dll
+D:\KHMT\Vs\EvoModeling - dotNet4.8\EvoModeling\EvoModeling\bin\Debug\OxyPlot.xml
+D:\KHMT\Vs\EvoModeling - dotNet4.8\EvoModeling\EvoModeling\bin\Debug\OxyPlot.WindowsForms.xml
+D:\KHMT\Vs\EvoModeling - dotNet4.8\EvoModeling\EvoModeling\obj\Debug\EvoModeling.csproj.AssemblyReference.cache
+D:\KHMT\Vs\EvoModeling - dotNet4.8\EvoModeling\EvoModeling\obj\Debug\EvoModeling.csproj.SuggestedBindingRedirects.cache
+D:\KHMT\Vs\EvoModeling - dotNet4.8\EvoModeling\EvoModeling\obj\Debug\EvoModeling.FormDrawObject.resources
+D:\KHMT\Vs\EvoModeling - dotNet4.8\EvoModeling\EvoModeling\obj\Debug\EvoModeling.csproj.GenerateResource.cache
+D:\KHMT\Vs\EvoModeling - dotNet4.8\EvoModeling\EvoModeling\obj\Debug\EvoModeling.csproj.CoreCompileInputs.cache
+D:\KHMT\Vs\EvoModeling - dotNet4.8\EvoModeling\EvoModeling\obj\Debug\EvoModeling.csproj.CopyComplete
+D:\KHMT\Vs\EvoModeling - dotNet4.8\EvoModeling\EvoModeling\obj\Debug\RevModeling.exe
+D:\KHMT\Vs\EvoModeling - dotNet4.8\EvoModeling\EvoModeling\obj\Debug\RevModeling.pdb
+D:\KHMT\Vs\EvoModeling - dotNet4.8\EvoModeling\EvoModeling\bin\Debug\RevModeling.exe.manifest
+D:\KHMT\Vs\EvoModeling - dotNet4.8\EvoModeling\EvoModeling\bin\Debug\RevModeling.application
+D:\KHMT\Vs\EvoModeling - dotNet4.8\EvoModeling\EvoModeling\obj\Debug\RevModeling.exe.manifest
+D:\KHMT\Vs\EvoModeling - dotNet4.8\EvoModeling\EvoModeling\obj\Debug\RevModeling.application
+D:\KHMT\Vs\[2] EvoModeling - dotNet4.8\EvoModeling\EvoModeling\bin\Debug\RevModeling.exe.config
+D:\KHMT\Vs\[2] EvoModeling - dotNet4.8\EvoModeling\EvoModeling\bin\Debug\RevModeling.exe.manifest
+D:\KHMT\Vs\[2] EvoModeling - dotNet4.8\EvoModeling\EvoModeling\bin\Debug\RevModeling.application
+D:\KHMT\Vs\[2] EvoModeling - dotNet4.8\EvoModeling\EvoModeling\bin\Debug\RevModeling.exe
+D:\KHMT\Vs\[2] EvoModeling - dotNet4.8\EvoModeling\EvoModeling\bin\Debug\RevModeling.pdb
+D:\KHMT\Vs\[2] EvoModeling - dotNet4.8\EvoModeling\EvoModeling\bin\Debug\OxyPlot.dll
+D:\KHMT\Vs\[2] EvoModeling - dotNet4.8\EvoModeling\EvoModeling\bin\Debug\OxyPlot.WindowsForms.dll
+D:\KHMT\Vs\[2] EvoModeling - dotNet4.8\EvoModeling\EvoModeling\bin\Debug\OxyPlot.xml
+D:\KHMT\Vs\[2] EvoModeling - dotNet4.8\EvoModeling\EvoModeling\bin\Debug\OxyPlot.WindowsForms.xml
+D:\KHMT\Vs\[2] EvoModeling - dotNet4.8\EvoModeling\EvoModeling\obj\Debug\EvoModeling.csproj.AssemblyReference.cache
+D:\KHMT\Vs\[2] EvoModeling - dotNet4.8\EvoModeling\EvoModeling\obj\Debug\EvoModeling.FormDrawObject.resources
+D:\KHMT\Vs\[2] EvoModeling - dotNet4.8\EvoModeling\EvoModeling\obj\Debug\EvoModeling.csproj.GenerateResource.cache
+D:\KHMT\Vs\[2] EvoModeling - dotNet4.8\EvoModeling\EvoModeling\obj\Debug\EvoModeling.csproj.CoreCompileInputs.cache
+D:\KHMT\Vs\[2] EvoModeling - dotNet4.8\EvoModeling\EvoModeling\obj\Debug\RevModeling.exe.manifest
+D:\KHMT\Vs\[2] EvoModeling - dotNet4.8\EvoModeling\EvoModeling\obj\Debug\RevModeling.application
+D:\KHMT\Vs\[2] EvoModeling - dotNet4.8\EvoModeling\EvoModeling\obj\Debug\EvoModeling.csproj.CopyComplete
+D:\KHMT\Vs\[2] EvoModeling - dotNet4.8\EvoModeling\EvoModeling\obj\Debug\RevModeling.exe
+D:\KHMT\Vs\[2] EvoModeling - dotNet4.8\EvoModeling\EvoModeling\obj\Debug\RevModeling.pdb
