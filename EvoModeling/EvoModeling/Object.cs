@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EvoModeling
 {
@@ -41,20 +39,20 @@ namespace EvoModeling
         }
 
         public EventLog[] nodeCreate(bool eventSource, bool threadInit, int[] pNodeId, int gen)
-        {            
+        {
             string eventId = lib.getId_Random(5);
 
             EventLog[] currLog = new EventLog[1];
             currLog[0] = new EventLog();
             EventLog[] accLog = new EventLog[] { };
-            
+
             //1. TẠO NÚT MỚI.
 
             Array.Resize(ref node, node.Length + 1);
             int newId = node.Length - 1;
             node[newId] = new Node();
             node[newId].id = newId;
-            
+
             node[newId].alive = true;
             node[newId].pNode = pNodeId;
             node[newId].aNode = new int[] { };
@@ -241,7 +239,7 @@ namespace EvoModeling
                         }
                     }
                 }
-                
+
                 //6. XÓA CÁC NÚT CON.
 
                 int[] myCNode = node[inputNodeId].cNode;
@@ -255,7 +253,7 @@ namespace EvoModeling
                     newException = newException.Concat(exception).ToArray().Distinct().ToArray();
                     for (int i = 0; i < myCNode.Length; i++)
                     {
-                        accLog = nodeDelete(eventSource, false, myCNode[i], depth + 1, newException,gen).Concat(accLog).ToArray();
+                        accLog = nodeDelete(eventSource, false, myCNode[i], depth + 1, newException, gen).Concat(accLog).ToArray();
                         ////
                         if (accLog.Length > 0)
                             currLog = updateCurrLog(currLog, accLog, 1);
@@ -274,7 +272,7 @@ namespace EvoModeling
             }
         }
 
-        public EventLog[] nodeUpdate(bool eventSource,bool threadInit, int inputNodeId, int depth, int[] exception, int gen)
+        public EventLog[] nodeUpdate(bool eventSource, bool threadInit, int inputNodeId, int depth, int[] exception, int gen)
         {
             string eventId = lib.getId_Random(5);
 
@@ -459,7 +457,7 @@ namespace EvoModeling
                         for (int i = 0; i < index.Length; i++)
                             index[i] = i;
                         index = index.Where(z => node[z].alive).ToArray();
-                        
+
                         //Đưa thêm nút vào mảng kế cận.
                         int[] myUANode = index.OrderBy(z => r.Next()).Take(y1).ToArray();
 
@@ -617,7 +615,7 @@ namespace EvoModeling
                         //Bớt sau.
                         aNodeStr += " ";
                         //Sao lưu mảng nút kế cận hiện tại.
-                        
+
                         //Loại bỏ ngẫu nhiên x nút hiện kế cận.
                         index = new int[inputANodeId.Length];
                         for (int i = 0; i < index.Length; i++)

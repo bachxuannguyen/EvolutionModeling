@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EvoModeling
 {
@@ -52,7 +49,7 @@ namespace EvoModeling
                 //Hiển thị các nút sẽ phân hóa.
                 string s = "";
                 if (disNode.Length > 0)
-                {                
+                {
                     for (int i = 0; i < disNode.Length; i++)
                     {
                         s += "[" + obj.node[disNode[i]].id.ToString() + "]";

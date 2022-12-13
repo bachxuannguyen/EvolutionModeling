@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Drawing;
 
 namespace EvoModeling
 {
@@ -54,7 +50,7 @@ namespace EvoModeling
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
             return new string(Enumerable.Repeat(chars, length)
                 .Select(s => s[r.Next(s.Length)]).ToArray());
-        }        
+        }
         //Trọng số.
         public int wP = 0;
         public int wC = 2;
@@ -64,7 +60,7 @@ namespace EvoModeling
         {
             return 0;
         }
-        
+
         //PHÂN HÓA.
 
         //Số lượng nút thực thi phân hóa.

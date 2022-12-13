@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using OxyPlot.WindowsForms;
+using System;
 using System.Diagnostics;
-using OxyPlot.WindowsForms;
+using System.Linq;
+using System.Windows.Forms;
 
 namespace EvoModeling
 {
@@ -65,9 +62,9 @@ namespace EvoModeling
                     deathCurrent = 0;
                     Array.Resize(ref tracer, genCount);
                     tracer[genCount - 1] = new Tracer();
-                }           
+                }
                 Console.WriteLine("///////\r\nGENERATION: " + genCount.ToString());
-                
+
 
                 //PHÂN HÓA.
 
@@ -90,7 +87,7 @@ namespace EvoModeling
                 }
 
                 //GHI THỐNG KÊ.
-                
+
                 Tracer currTracer = new Tracer();
                 tracer[genCount - 1].Write(genCount, evoEng.obj, false);
 
@@ -99,7 +96,7 @@ namespace EvoModeling
                 showGenSummary(false, false, genCount);
 
                 //PHÁT HIỆN BIẾN CỐ.
-                
+
                 int incidentCode = evoEng.detectIncident(tracer, genCount);
                 if (incidentCode >= 0)
                 {
@@ -142,7 +139,7 @@ namespace EvoModeling
                         case 1:
                             break;
                         case 2:
-                            {                              
+                            {
                                 objectAnalysis();
                                 break;
                             }
@@ -374,7 +371,7 @@ namespace EvoModeling
             if (saveImg)
             {
                 var pngExporter = new PngExporter { Width = 1200, Height = 800 };
-                string fileName = "gen-" + genPlot.ToString() + ".png";           
+                string fileName = "gen-" + genPlot.ToString() + ".png";
                 pngExporter.ExportToFile(modelNode, lib.folderPath + folderName + "/" + fileName);
             }
             else
@@ -623,7 +620,7 @@ namespace EvoModeling
                         showDMThreads();
                         break;
                     }
-            } 
+            }
         }
 
         static void showDMThreads()
@@ -632,14 +629,14 @@ namespace EvoModeling
             Console.Write("D thread(s): ");
             if (tracer[genCount - 1].eventLog_DThreading.Length > 0)
                 Console.Write(tracer[genCount - 1].eventLog_DThreading.Length.ToString() + " thread(s), derivated " + tracer[genCount - 1].count_DerivatedByDissociating.ToString() + ": ");
-                for (int i = 0; i < tracer[genCount - 1].eventLog_DThreading.Length; i++)
-                    Console.Write("[" + tracer[genCount - 1].eventLog_DThreading[i].id + "][id" + tracer[genCount - 1].eventLog_DThreading[i].nodeId + "-" + tracer[genCount - 1].eventLog_DThreading[i].count_AccTotal + "] ");
+            for (int i = 0; i < tracer[genCount - 1].eventLog_DThreading.Length; i++)
+                Console.Write("[" + tracer[genCount - 1].eventLog_DThreading[i].id + "][id" + tracer[genCount - 1].eventLog_DThreading[i].nodeId + "-" + tracer[genCount - 1].eventLog_DThreading[i].count_AccTotal + "] ");
             Console.Write("\r\n");
             Console.Write("M thread(s): ");
             if (tracer[genCount - 1].eventLog_MThreading.Length > 0)
                 Console.Write(tracer[genCount - 1].eventLog_MThreading.Length.ToString() + " thread(s), derivated " + tracer[genCount - 1].count_DerivatedByMutating.ToString() + ": ");
-                for (int i = 0; i < tracer[genCount - 1].eventLog_MThreading.Length; i++)
-                    Console.Write("[" + tracer[genCount - 1].eventLog_MThreading[i].id + "][id" + tracer[genCount - 1].eventLog_MThreading[i].nodeId + "-" + tracer[genCount - 1].eventLog_MThreading[i].count_AccTotal + "] ");
+            for (int i = 0; i < tracer[genCount - 1].eventLog_MThreading.Length; i++)
+                Console.Write("[" + tracer[genCount - 1].eventLog_MThreading[i].id + "][id" + tracer[genCount - 1].eventLog_MThreading[i].nodeId + "-" + tracer[genCount - 1].eventLog_MThreading[i].count_AccTotal + "] ");
             Console.Write("\r\n");
         }
 

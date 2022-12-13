@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace EvoModeling
@@ -33,7 +28,7 @@ namespace EvoModeling
             Font fontSummary = new Font(FontFamily.GenericSansSerif, 10.0F, FontStyle.Bold);
             SolidBrush brushNode = new SolidBrush(Color.Black);
             SolidBrush brushSummary = new SolidBrush(Color.Black);
-            
+
             //Kích thước nút vẽ.
             int eW = 3;
             int eH = 3;
@@ -100,19 +95,19 @@ namespace EvoModeling
                 e.Graphics.DrawString(summaryStr, fontSummary, brushSummary, 1, 1);
 
                 //Vẽ liên kết kế cận.
-                for (int i = 0; i < evaluator.nodeCount_Evaluated; i++)                           
+                for (int i = 0; i < evaluator.nodeCount_Evaluated; i++)
                     if (evaluator.node_Evaluated[i].aNode.Length > 0)
                         for (int j = 0; j < evaluator.node_Evaluated[i].aNode.Length; j++)
                         {
                             if (node_Evaluated_Id.Contains(evaluator.node_Evaluated[i].aNode[j]))
                                 e.Graphics.DrawLine(penALink, new Point(arrX[i], arrY[i]), new Point(arrX[Array.IndexOf(node_Evaluated_Id, evaluator.node_Evaluated[i].aNode[j])], arrY[Array.IndexOf(node_Evaluated_Id, evaluator.node_Evaluated[i].aNode[j])]));
                         }
-                
+
                 //Vẽ liên kết cha.
                 for (int i = 0; i < evaluator.nodeCount_Evaluated; i++)
                     if (node_Evaluated_Id.Contains(evaluator.node_Evaluated[i].pNode[0]))
                         e.Graphics.DrawLine(penPLink, new Point(arrX[i], arrY[i]), new Point(arrX[Array.IndexOf(node_Evaluated_Id, evaluator.node_Evaluated[i].pNode[0])], arrY[Array.IndexOf(node_Evaluated_Id, evaluator.node_Evaluated[i].pNode[0])]));
-                
+
                 //Vẽ nút và ghi nhãn.
                 for (int i = 0; i < evaluator.nodeCount_Evaluated; i++)
                 {

@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EvoModeling
 {
@@ -104,7 +101,7 @@ namespace EvoModeling
 
             //Trọng số.
             for (int i = 0; i < node_Evaluated.Length; i++)
-                weight_Evaluated += node_Evaluated[i].weight;         
+                weight_Evaluated += node_Evaluated[i].weight;
             int[] accWeight = new int[node_Alive.Length];
             accWeight[0] = node_Alive[0].weight;
             for (int i = 1; i < node_Alive.Length; i++)
@@ -122,7 +119,7 @@ namespace EvoModeling
                 if (evaluatedNodeId.Contains(node_Evaluated[i].pNode[0]))
                     pNodeCount++;
             ratio_PNode = (double)pNodeCount / node_Evaluated.Length;
-            
+
             //Nút kế cận.
             int possANode = 0;
             for (int i = 0; i < node_Evaluated.Length; i++)
